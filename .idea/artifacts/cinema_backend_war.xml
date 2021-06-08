@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cinema-backend:war">
+    <output-path>$PROJECT_DIR$/cinema-backend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cinema-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cinema-backend-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cinema-backend:war exploded" />
+    </root>
+  </artifact>
+</component>
